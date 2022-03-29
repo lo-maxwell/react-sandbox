@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Login.css"],"names":[],"mappings":"AAAA,eACI,YAAa,CACb,qBAAsB,CACtB,kBACJ","file":"main.08c31343.chunk.css","sourcesContent":[".login-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n"]}
