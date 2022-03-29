@@ -1,4 +1,5 @@
 {
+  "homepage": "http://yuribenjamin.github.io/my-app",
   "name": "create-react-app-with-styled-components",
   "version": "5.0.0",
   "private": true,
@@ -22,7 +23,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -39,6 +42,7 @@
   "devDependencies": {
     "@craco/craco": "latest",
     "cors": "^2.8.5",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "gh-pages": "^3.2.3"
   }
 }
